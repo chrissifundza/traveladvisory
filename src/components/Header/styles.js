@@ -46,4 +46,9 @@ export default makeStyles((theme) => ({
 	Link: {
 		textDecorationLine: "none",
 	},
+	palette:{
+		primary:{
+			main:'violet'
+		}
+	}
 }));

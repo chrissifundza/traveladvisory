@@ -19,15 +19,13 @@ const Header = ({ onPlaceChanged, onLoad }) => {
 	function handleLogout() {}
 
 	return (
-		<AppBar position="static">
+		<AppBar position="static" color="primary">
 			<Toolbar className={classes.toolbar}>
 				<Typography variant="h5" className={classes.title}>
 					Discover Tour Guide
 					<Select id="type" value={"LogOut"}>
 						<MenuItem value="profile">
-							<Link to="/profile" View Profile>
-								View Profile
-							</Link>
+							
 						</MenuItem>
 						<MenuItem value="point">
 							<Link to="/distance" View Profile>
