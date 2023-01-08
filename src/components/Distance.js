@@ -25,7 +25,9 @@ import { Link } from "react-router-dom";
 
 export default function Distance() {
 	const [latitude, setLatitude] = useState("");
-const [longitude, setLongitude] = useState("");
+	const [longitude, setLongitude] = useState("");
+
+	
 
 useEffect(()=>{
 navigator.geolocation.getCurrentPosition((position)=>{
